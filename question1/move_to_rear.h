@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-
+//This function takes a vector of elements and feeds it into a Queue
 template<typename T>
 void buildQueue(std::vector<T>& inputVector, std::queue<T>& newQueue) {
 	for (int i = 0; i < inputVector.size(); i++) {
@@ -13,7 +13,7 @@ void buildQueue(std::vector<T>& inputVector, std::queue<T>& newQueue) {
 	//	newQueue.push(x);
 	}
 }
-
+//This function prints the contents of a Queue
 template<typename T>
 void printQueue(std::queue<T>& queueToPrint) {
 	size_t queueSize = queueToPrint.size();
@@ -25,7 +25,7 @@ void printQueue(std::queue<T>& queueToPrint) {
 	std::cout << std::endl;
 }
 
-
+//This function moves the front element in a queue to the rear
 template<typename T>
 void move_to_rear(std::queue<T>& myQueue) {
 	myQueue.push(myQueue.front());
