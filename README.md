@@ -9,3 +9,7 @@ Question 2
 Question 3
 ![image](https://user-images.githubusercontent.com/111100132/204050788-e3f48334-7a4d-4c02-852b-dbc31157ca95.png)
 
+Question 4
+![image](https://user-images.githubusercontent.com/111100132/204052777-5bf21d47-ddcb-4ed8-bea0-a3922d6bca84.png)
+
+
